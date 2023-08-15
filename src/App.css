@@ -1,8 +1,7 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*,
+html {
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -16,6 +15,90 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+/* Userlist.css */
+
+/* Styling for the main container */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styling for the logo */
+.logo {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Styling for the user-details section */
+.user-details {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 20px; */
+}
+
+/* Styling for the users list */
+.users-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Styling for user info card */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for user content */
+.user-content {
+  text-align: center;
+}
+
+/* Styling for the user image */
+.img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Styling for the clear button */
+.clear-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* Styling for the link within the button */
+.clear-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.card-text {
+  color: #000000;
+  margin-bottom: 12px;
+}
+/* Hover effect for the clear button */
+.clear-btn:hover {
+  background-color: #0056b3;
 }
 
 @keyframes logo-spin {
